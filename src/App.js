@@ -76,14 +76,14 @@ const logoutUser = () => {
        <h1 className="text-center py-5 display-4"> 
           <text style={{color: '#FFCB2C'}}>fire</text>
           <text style={{color: '#F5820E'}}>base </text>
-        react login system</h1>
+        project two</h1>
 
 
     <div className="row text-center">
       {
         isLoggedIn?(
           <>
-            <h1>Welcome to the Home Page, { user.email }</h1>
+            <h1>Welcome, { user.email }</h1>
             <div style={{textAlign: 'center'}}>
               <button type="button" style={{width: '250px'}}className="btn btn-warning btn-lg form-control" onClick={logoutUser}>Log Out</button>
               
